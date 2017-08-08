@@ -1,4 +1,4 @@
-ff_bashrc_version=0.1.1
+ff_bashrc_version=0.2.1
 
 gpip(){
    PIP_REQUIRE_VIRTUALENV="" pip "$@"
@@ -18,5 +18,13 @@ activate_virutal_env() {
    fi
    cd "$HOME/Virtualenvs/${1}-py${pythonVersion}"
    source bin/activate
+   cd "$curDir"
+}
+
+
+update_ff_bash() {
+   curDir=`pwd`  
+   cd "$HOME/.ff_bash"
+   git pull
    cd "$curDir"
 }
