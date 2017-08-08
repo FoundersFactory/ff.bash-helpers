@@ -4,7 +4,7 @@ A small list of bash helper functions to speedup development
 
  ## Setup:
  ```bash
- git clone git@github.com:FoundersFactory/helpers.git $HOME/.ff_bash
+ git clone git@github.com:FoundersFactory/ff.bash-helpers.git $HOME/.ff_bash
  $HOME/.ff_bash/install.sh
  ```
  
