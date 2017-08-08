@@ -1,4 +1,4 @@
-ff_bashrc_version=0.2.1
+ff_bashrc_version=0.2.2
 
 gpip(){
    PIP_REQUIRE_VIRTUALENV="" pip "$@"
@@ -27,4 +27,5 @@ update_ff_bash() {
    cd "$HOME/.ff_bash"
    git pull
    cd "$curDir"
+   source $HOME/.bashrc
 }
