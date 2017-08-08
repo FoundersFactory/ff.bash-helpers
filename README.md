@@ -2,6 +2,14 @@
 
 A small list of bash helper functions to speedup development
 
+ ## Setup:
+ ```bash
+ git clone git@github.com:FoundersFactory/helpers.git $HOME/.ff_bash
+ $HOME/.ff_bash/install.sh
+ ```
+ 
+# Helpers
+
  ## activate_virutal_env
   
   Setup: 
