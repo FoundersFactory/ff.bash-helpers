@@ -9,13 +9,6 @@ A small list of bash helper functions to speedup development and MacOS setup
  echo "export PATH=\"/usr/local/opt/python/libexec/bin:\$PATH\"" >> ~/.bash_profile
  ```
  
-# Helpers
-
- ```bash
- git clone git@github.com:FoundersFactory/ff.bash-helpers.git $HOME/.ff_bash
- $HOME/.ff_bash/install.sh
- ```
- 
  ## pip global setup
  
   Setup: 
@@ -30,6 +23,15 @@ require-virtualenv = true
 require-virtualenv = true
 EOT
 ```
+ 
+# Helpers
+
+ ```bash
+ git clone git@github.com:FoundersFactory/ff.bash-helpers.git $HOME/.ff_bash
+ $HOME/.ff_bash/install.sh
+ ```
+ 
+
  
 
  ## activate_virutal_env
