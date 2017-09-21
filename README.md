@@ -1,4 +1,4 @@
-# **Bash helpers**
+# **FF Bash Setup**
 
 A small list of bash helper functions to speedup development and MacOS setup
 
@@ -11,8 +11,8 @@ A small list of bash helper functions to speedup development and MacOS setup
  
  ## pip global setup
  
-  Setup: 
-  ```bash
+Setup: 
+```bash
   pip install virtualenv
   mkdir -p ~/Virtualenvs ~/Library/Application\ Support/pip
   cat<<EOT > ~/Library/Application\ Support/pip/pip.conf
@@ -23,16 +23,14 @@ require-virtualenv = true
 require-virtualenv = true
 EOT
 ```
- 
-# Helpers
 
+## FF Bash Helpers install
  ```bash
  git clone git@github.com:FoundersFactory/ff.bash-helpers.git $HOME/.ff_bash
  $HOME/.ff_bash/install.sh
  ```
  
-
- 
+# Helpers List
 
  ## activate_virutal_env
 
