@@ -1,4 +1,4 @@
-ff_bashrc_version=0.2.2
+source ./ff_bash_version
 
 gpip(){
    PIP_REQUIRE_VIRTUALENV="" pip "$@"
